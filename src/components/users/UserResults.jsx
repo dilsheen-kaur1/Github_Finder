@@ -7,9 +7,9 @@ function UserResults() {
     // const [users, setUsers] = useState([]);
     // const [loading, setLoading] = useState(true)//false default
     const { users, loading ,fetchUsers } = useContext(GithubContext)
-    useEffect(()=>{
-        fetchUsers()
-    },[])
+    // useEffect(()=>{
+    //     fetchUsers()
+    // },[])
 
     // const fetchUsers = async ()=>{
     //     const response = await fetch(`https://api.github.com/users`, {
